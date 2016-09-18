@@ -1,0 +1,37 @@
+<div style="padding-left:20px; padding-right:20px">
+    <a>filter 1</a>
+    <a>filter 2</a>
+    <a>filter 3</a>
+</div>
+<br />
+
+<div>
+<!--  Potrebno dodati nove tagove za tabelu-->
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th style='width: 25%'>Ime i  prezime</th>
+        <th>Adresa</th>
+        <th>Dzemat</th>        
+        <th>email</th>
+        <th>telefon</th>
+        <th>imam</th>
+        <th>reis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="covjek in ljudi">
+        <td>{{covjek.Id}}</td>
+        <td>{{covjek.ImePrezime}}</td>
+        <td>{{covjek.Adresa}}</td>
+        <td>{{covjek.Dzemat}}</td>
+        <td>{{covjek.Email}}</td>
+        <td>{{covjek.Telefon}}</td>
+        <td>{{covjek.IsImam}}</td>        
+        <td>{{covjek.IsReis}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+</div>

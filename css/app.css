@@ -1,0 +1,113 @@
+.width30 { 
+    width: 30%;
+}
+
+.width10{
+	width: 10%;
+}
+
+.divBorder{
+	border-radius: 25px;
+    border: 2px solid #157DEC;
+    padding: 20px;    
+}
+
+.nonType{
+	list-style-type: none;
+}
+
+.divPaddingBottom{
+	padding-bottom: 100px;
+}
+
+.menuButtonSize{
+	width: 100%;
+}
+
+.borderMenuSize{
+	width: 35%;	
+}
+
+.controlShadow{
+	box-shadow: 7px 7px 5px grey;
+}
+
+.spaceHeight{
+	height: 5px;
+}
+
+.fontWeightBold{
+	font-weight: bold;
+}
+
+.menuButtonDev{
+	width: 100%;
+	font-weight: bold;
+	font-size: 180%;
+}
+
+.label-as-badge {
+    border-radius: 1em;
+}
+
+.alignRight{
+	float: right;
+}
+
+.textareaCustom{
+	border: 2px solid #765942;
+	border-radius: 10px;
+	width: 100%;
+	height: 100px;
+}
+
+.height100px{
+	height: 50px;
+}
+
+.myForm{
+	width: 100%;
+}
+
+//Where to go status
+.wtg{
+	background-color: #FFBF00;
+}
+
+.resourceDivs{
+	display: inline-block;	
+}
+
+td {
+	cursor: pointer;
+}
+/*
+fieldset {
+	border:1px solid green;	
+ }
+*/
+fieldset input {
+	position: relative;
+	left: 50px;
+}
+
+fieldset select {
+	position: relative;
+	left: 50px;
+}
+/*
+legend {
+  
+  border:1px solid green;
+  color:green;
+  font-size:10px;
+  text-align:left;
+  }*/
+
+label {
+  float:left;
+  width:25%;
+
+  text-align:left;
+  font-weight:bold;
+  }
